@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12028" started-at="2018-07-09T08:04:51Z" finished-at="2018-07-09T08:05:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12028" started-at="2018-07-09T08:04:51Z" finished-at="2018-07-09T08:05:03Z">
+      <class name="Test.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test.NewTest@d2cc05a]" name="beforeClass" is-config="true" duration-ms="2597" started-at="2018-07-09T13:34:51Z" finished-at="2018-07-09T13:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="move_mouse()[pri:0, instance:Test.NewTest@d2cc05a]" name="move_mouse" duration-ms="4210" started-at="2018-07-09T13:34:54Z" finished-at="2018-07-09T13:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- move_mouse -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterMethod" is-config="true" duration-ms="56" started-at="2018-07-09T13:34:58Z" finished-at="2018-07-09T13:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterTest" is-config="true" duration-ms="5157" started-at="2018-07-09T13:34:58Z" finished-at="2018-07-09T13:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Test.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
