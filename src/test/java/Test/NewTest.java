@@ -26,19 +26,19 @@ public class NewTest {
 	// auth.click_on_redbox();
 	// }
 
-//	@Test
-//	public void validate_image() throws InterruptedException {
-//
-//		System.out.println("==============================================================");
-//		image = new Brokenimage(driver);
-//		image.validateInvalidImages();
-//
-//	}
+	@Test
+	public void validate_image() throws InterruptedException {
+
+		System.out.println("=============================Validate Image===============================");
+		image = new Brokenimage(driver);
+		image.validateInvalidImages();
+
+	}
 
 	@Test
-	public void move_mouse() throws InterruptedException, AWTException {
+	public void check_for_exitIntent() throws InterruptedException, AWTException {
 
-		System.out.println("==============================================================");
+		System.out.println("==============================Check for exitintent================================");
 		eintent = new ExitIntent(driver);
 		eintent.move_mouse();
 
