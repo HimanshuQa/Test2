@@ -1,5 +1,9 @@
 package Keywords;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
 import java.util.List;
 
 import org.openqa.selenium.Alert;
@@ -30,13 +34,50 @@ public class Basicauth {
 		PageFactory.initElements(this.web, this);
 	}
 
-	public void click_on_redbox() throws InterruptedException {
+	public void click_on_redbox() throws InterruptedException, AWTException {
 		initiaiseElements();
-		basicauth.click();
-		Thread.sleep(2000);
-		Alert alert = web.switchTo().alert();
-		System.out.println(alert);
+		Robot robo = new Robot();
+		basicauth.click();	
+		robo.mouseMove(500, 200);;
 
+		roboEvent(robo);
+	}
+	
+	
+	public void roboEvent(Robot robo){
+
+		System.out.println("sadasdasdasddadadmidmin");
+		robo.mousePress(InputEvent.BUTTON1_MASK);
+		robo.mouseRelease(InputEvent.BUTTON1_MASK);
+		
+		robo.keyPress(KeyEvent.VK_A);
+		robo.keyRelease(KeyEvent.VK_A);
+		robo.keyPress(KeyEvent.VK_D);		
+		robo.keyRelease(KeyEvent.VK_D);
+		robo.keyPress(KeyEvent.VK_M);
+		robo.keyRelease(KeyEvent.VK_M);
+		robo.keyPress(KeyEvent.VK_I);
+		robo.keyRelease(KeyEvent.VK_I);
+		robo.keyPress(KeyEvent.VK_N);
+		robo.keyRelease(KeyEvent.VK_N);
+		
+		robo.keyPress(KeyEvent.VK_TAB);
+		robo.keyRelease(KeyEvent.VK_TAB);
+		
+		robo.keyPress(KeyEvent.VK_A);
+		robo.keyRelease(KeyEvent.VK_A);
+		robo.keyPress(KeyEvent.VK_D);
+		robo.keyRelease(KeyEvent.VK_D);
+		robo.keyPress(KeyEvent.VK_M);
+		robo.keyRelease(KeyEvent.VK_M);
+		robo.keyPress(KeyEvent.VK_I);
+		robo.keyRelease(KeyEvent.VK_I);
+		robo.keyPress(KeyEvent.VK_N);
+		robo.keyRelease(KeyEvent.VK_N);
+		
+		robo.keyPress(KeyEvent.VK_ENTER);
+		robo.keyRelease(KeyEvent.VK_ENTER);
+		
 	}
 	//
 	// public void click_on_greenbox() {

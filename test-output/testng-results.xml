@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10141" started-at="2018-07-09T10:01:49Z" finished-at="2018-07-09T10:01:59Z">
+  <suite name="Default suite" duration-ms="11608" started-at="2018-07-10T07:07:01Z" finished-at="2018-07-10T07:07:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10141" started-at="2018-07-09T10:01:49Z" finished-at="2018-07-09T10:01:59Z">
+    <test name="Default test" duration-ms="11608" started-at="2018-07-10T07:07:01Z" finished-at="2018-07-10T07:07:13Z">
       <class name="Test.NewTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test.NewTest@d2cc05a]" name="beforeClass" is-config="true" duration-ms="2266" started-at="2018-07-09T15:31:49Z" finished-at="2018-07-09T15:31:51Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test.NewTest@d2cc05a]" name="beforeClass" is-config="true" duration-ms="2679" started-at="2018-07-10T12:37:01Z" finished-at="2018-07-10T12:37:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="check_for_exitIntent()[pri:0, instance:Test.NewTest@d2cc05a]" name="check_for_exitIntent" duration-ms="2372" started-at="2018-07-09T15:31:51Z" finished-at="2018-07-09T15:31:53Z">
+        <test-method status="PASS" signature="check_for_exitIntent()[pri:0, instance:Test.NewTest@d2cc05a]" name="check_for_exitIntent" duration-ms="2374" started-at="2018-07-10T12:37:04Z" finished-at="2018-07-10T12:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_for_exitIntent -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterMethod" is-config="true" duration-ms="64" started-at="2018-07-09T15:31:53Z" finished-at="2018-07-09T15:31:53Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterMethod" is-config="true" duration-ms="68" started-at="2018-07-10T12:37:06Z" finished-at="2018-07-10T12:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="validate_image()[pri:0, instance:Test.NewTest@d2cc05a]" name="validate_image" duration-ms="306" started-at="2018-07-09T15:31:53Z" finished-at="2018-07-09T15:31:54Z">
+        <test-method status="PASS" signature="check_for_hovers()[pri:0, instance:Test.NewTest@d2cc05a]" name="check_for_hovers" duration-ms="309" started-at="2018-07-10T12:37:06Z" finished-at="2018-07-10T12:37:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_image -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterMethod" is-config="true" duration-ms="59" started-at="2018-07-09T15:31:54Z" finished-at="2018-07-09T15:31:54Z">
+        </test-method> <!-- check_for_hovers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterMethod" is-config="true" duration-ms="64" started-at="2018-07-10T12:37:07Z" finished-at="2018-07-10T12:37:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterTest" is-config="true" duration-ms="5064" started-at="2018-07-09T15:31:54Z" finished-at="2018-07-09T15:31:59Z">
+        <test-method status="PASS" signature="check_for_login1()[pri:0, instance:Test.NewTest@d2cc05a]" name="check_for_login1" duration-ms="448" started-at="2018-07-10T12:37:07Z" finished-at="2018-07-10T12:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_for_login1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterMethod" is-config="true" duration-ms="67" started-at="2018-07-10T12:37:07Z" finished-at="2018-07-10T12:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="check_for_login2()[pri:0, instance:Test.NewTest@d2cc05a]" name="check_for_login2" duration-ms="461" started-at="2018-07-10T12:37:07Z" finished-at="2018-07-10T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_for_login2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterMethod" is-config="true" duration-ms="57" started-at="2018-07-10T12:37:08Z" finished-at="2018-07-10T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test.NewTest@d2cc05a]" name="afterTest" is-config="true" duration-ms="5067" started-at="2018-07-10T12:37:08Z" finished-at="2018-07-10T12:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

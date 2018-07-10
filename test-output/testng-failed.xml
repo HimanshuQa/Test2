@@ -8,7 +8,7 @@
           <include name="beforeClass"/>
           <include name="afterTest"/>
           <include name="afterMethod"/>
-          <include name="move_mouse"/>
+          <include name="check_for_login1"/>
         </methods>
       </class> <!-- Test.NewTest -->
     </classes>

@@ -50,6 +50,7 @@ public class ExitIntent {
 		
 		int xCoord = 500;
 		robot.mouseMove(xCoord, 800);
+		
 		robot.mouseMove(xCoord, 100);
 		
 		
